@@ -20,6 +20,6 @@ let isLoggedIn = false
 
 // object 
 
-// console.log(typeof age)
+// console.log(typeof age) => type is number
 // console.log(typeof null) => type is object
 // console.log(typeof undefined) => type is undefined
