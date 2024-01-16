@@ -39,12 +39,41 @@ const user = [
     }
 ]
 
-console.log(user[1].email)
-console.log(tinderUser)
+// console.log(user[1].email)
+// console.log(tinderUser)
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"))
-console.log(tinderUser.hasOwnProperty("isLogged"))
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"))
+// console.log(tinderUser.hasOwnProperty("isLogged"))
+
+
+const course = {
+    courseName : "JS in hindi",
+    price : "999",
+    instructor : "Rishabh is the instructor"
+}
+
+// course.instructor
+
+const {instructor: inst} = course
+
+// console.log(instructor)
+console.log(inst)
+
+// this is how the api look
+
+// {
+//     "name" : "rishabh kushwaha",
+//     "courseName" : "Js in hindi",
+//     "price" : "free"
+// }
+
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
