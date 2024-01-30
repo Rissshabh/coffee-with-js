@@ -39,7 +39,7 @@ buttons.forEach( (btn) => {
 } );
 ```
 
-## Project 2 Solutin
+## Project 2 Solution
 
 ```
 BMI calculator
@@ -72,4 +72,18 @@ form.addEventListener('submit', function(e) {
   }
 
 
-})```
+})
+```
+
+## Project 3 Solution
+
+```
+Digital Clock
+
+const clock = document.querySelector("#clock")
+
+setInterval(function(){
+  let date = new Date().toLocaleTimeString()
+  clock.innerHTML = `${date}`
+}, 1000)
+```
